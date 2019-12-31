@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    //signUp
+    <dimen name="logo_top_margin">@dimen/_15sdp</dimen>
+    <dimen name="logo_size">@dimen/_130sdp</dimen>
+
+
+    <dimen name="cardview_padding">@dimen/_10sdp</dimen>
+    <dimen name="cardview_bold">@dimen/_20sdp</dimen>
+    <dimen name="cardview_normal">@dimen/_12sdp</dimen>
+    <dimen name="cardview_marginTop">@dimen/_5sdp</dimen>
+
+    <dimen name="cart_fontSize">@dimen/_16sdp</dimen>
+
+    //side Navigation
+    <dimen name="sideNavigationMarign">@dimen/_5sdp</dimen>
+    <dimen name="sideNavigationMarignLeft">@dimen/_10sdp</dimen>
+    <dimen name="sideNavigationMarignTop">@dimen/_40sdp</dimen>
+    //textSize
+    <dimen name="sideNavigation">@dimen/_18sdp</dimen>
+    <dimen name="sideNavigationMarignImage">@dimen/_7sdp</dimen>
+    <dimen name="sideNavigationIconSize">@dimen/_15sdp</dimen>
+    <dimen name="sideNavigationMarginTopWords">@dimen/_2sdp</dimen>
+
+
+
+    <dimen name="aboutResturent_main">@dimen/_20sdp</dimen>
+
+</resources>

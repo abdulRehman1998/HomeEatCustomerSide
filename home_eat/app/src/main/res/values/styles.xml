@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@color/appColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Drawer">
+
+        <item name="android:textSize">10sp</item><!-- text size in menu-->
+
+
+    </style>
+
+</resources>

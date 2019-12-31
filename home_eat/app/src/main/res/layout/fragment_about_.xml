@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.about_restaurants_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_30sdp"
+
+        >
+
+        <LinearLayout
+            android:weightSum="6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_location_yello"/>
+
+            <TextView
+                android:id="@+id/address_fragmentAbout"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="@string/about_resturetns_light"
+                android:text="House no. , street NUmber, usa, Pakistreet NUmber, usa, Paki "
+                />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="6"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_alarm"/>
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@string/about_resturetns_light"
+                    android:text="Monday - Friday"
+                    />
+                <TextView
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:fontFamily="@string/about_resturetns_light"
+                    android:text="Saturday - Sunday"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="right"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/darker_gray"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@string/about_resturetns_light"
+                    android:text="9:00AM - 17:00PM"
+                    />
+                <TextView
+                    android:gravity="right"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/darker_gray"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@string/about_resturetns_light"
+                    android:text="8:00AM - 20:00PM"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:background="@drawable/maps"/>
+        
+        
+    </LinearLayout>
+
+
+</FrameLayout>

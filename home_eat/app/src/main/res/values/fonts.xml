@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cardview_font_bold">@font/aldrich</string>
+    <string name="navigataion_font">sans-serif-thin</string>
+    <string name="about_resturetns_light">sans-serif-light</string>
+
+</resources>

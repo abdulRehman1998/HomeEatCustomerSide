@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:id="@+id/layout_item">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardUseCompatPadding="true"
+>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@drawable/pizza"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_3sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+    <TextView
+        android:id="@+id/tv_name_itemLayout"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/grey_main"
+        android:textSize="@dimen/_25sdp"/>
+
+
+            <ImageView
+                android:id="@+id/orderCountCirleIl"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_alignParentRight="true"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/circle"/>
+
+            <LinearLayout
+                android:layout_width="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/orderCountTextIl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15sdp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="0"
+                />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+
+    <TextView
+        android:id="@+id/tv_desc_itemLayout"
+        android:scrollbars="vertical"
+        android:layout_weight="2.2"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="here is the food from heavens, once you take the very first bite, the flavours just explode in your mouth making you feel out of this world."/>
+
+            <TextView
+                android:id="@+id/tv_price_itemLayout"
+                android:textColor="@color/appColor"
+                android:gravity="right"
+                android:layout_weight="0.8"
+                android:layout_gravity="bottom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Rs. 500"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

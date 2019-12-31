@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "611667938414",
+    "firebase_url": "https://homeeat-ae8f4.firebaseio.com",
+    "project_id": "homeeat-ae8f4",
+    "storage_bucket": "homeeat-ae8f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611667938414:android:0779b887e759ff49086a7f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611667938414-3832alfhp5q94s4eo0hgm2qbmspt94k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz6ldzgfoTSpIxyFqddQKWgnoplZbtXpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611667938414-3832alfhp5q94s4eo0hgm2qbmspt94k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

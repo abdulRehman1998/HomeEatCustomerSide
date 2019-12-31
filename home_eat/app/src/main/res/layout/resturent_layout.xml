@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:id="@+id/ll_resturent_layout"
+    android:layout_height="wrap_content"
+>
+
+
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_3sdp"
+        app:cardUseCompatPadding="true"
+        android:padding="@dimen/_1sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/lahore"
+
+
+                />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_3sdp"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/vendorName_rl"
+                    android:layout_weight="0.75"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/cardview_normal"
+                    android:fontFamily="@string/cardview_font_bold"
+                    android:textColor="@color/grey_main"
+                    android:text="KFC"
+                    />
+
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.09">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/_1sdp"
+                    android:background="@drawable/star"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_12sdp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/vendorRating_rl"
+                    android:layout_weight="0.15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColor="@color/appColor"
+                    android:text="4.5"
+                    />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/vendorAddress_rl"
+                android:paddingLeft="@dimen/_3sdp"
+                android:paddingRight="@dimen/_3sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barkat Market Lahore"
+                android:layout_marginBottom="@dimen/_7sdp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
